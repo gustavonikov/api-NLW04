@@ -5,7 +5,7 @@ to know their feedback and calculate the NPS(Net Promoter Score)
 ## Getting started
 
 You can use git clone to copy this repository by typing this command on your console:
-`` https://github.com/gustavonikov/moveit.git ``
+`` https://github.com/gustavonikov/api-nlw04.git ``
 or you can download the zip file and open it in your IDE.
 
 Then you run ```npm install``` if you have npm installed on your machine or ```yarn add``` if you have yarn,
