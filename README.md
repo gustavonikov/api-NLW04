@@ -42,11 +42,12 @@ The base url for us in this app is http://localhost:8080, which 8080 is the PORT
 Method: POST
 
 You have to send to pass:
-
+```bash
 {
 	"name": "Sample 01",
 	"email": "sample01@gmail.com"
 }
+```
 
 ### Create Feedback Survey -> /surveys
 
