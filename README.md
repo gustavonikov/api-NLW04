@@ -77,8 +77,8 @@ will return:
 
   {
     "id": "b23f501d-1241-432a-a2d4-48532d3d815f",
-    "title": "Pesquisa de satisfação",
-    "description": "De 0 a 10, quanto você recomendaria a Rocketseat?",
+    "title": "Pesquisa de satisfação 02",
+    "description": "de 0 a 10, quanto você avaliaria nosso serviço de delivery?",
     "created_at": "2021-02-25T20:15:40.000Z"
   }
 
