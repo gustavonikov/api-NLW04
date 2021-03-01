@@ -67,18 +67,21 @@ Method: GET
 will return:
 
 [
+
   {
     "id": "d549807e-0339-448c-a0e4-15363d3d815f",
     "title": "Pesquisa de satisfação",
     "description": "De 0 a 10, quanto você recomendaria a Rocketseat?",
     "created_at": "2021-02-25T20:15:40.000Z"
-  }
+  },
+
   {
     "id": "b23f501d-1241-432a-a2d4-48532d3d815f",
     "title": "Pesquisa de satisfação",
     "description": "De 0 a 10, quanto você recomendaria a Rocketseat?",
     "created_at": "2021-02-25T20:15:40.000Z"
   }
+
 ]
 
 ### Send Email -> /send-mail
