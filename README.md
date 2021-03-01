@@ -55,8 +55,8 @@ Method: POST
 You have to send to pass:
 
 {
-	"title": "Pesquisa de satisfação",
-	"description": "De 0 a 10, quanto você recomendaria a Rocketseat?"
+	"title": "Survey's title",
+	"description": "Survey's description"
 }
 
 
@@ -69,17 +69,17 @@ will return:
 [
 
   {
-    "id": "d549807e-0339-448c-a0e4-15363d3d815f",
-    "title": "Pesquisa de satisfação",
-    "description": "De 0 a 10, quanto você recomendaria a Rocketseat?",
-    "created_at": "2021-02-25T20:15:40.000Z"
+    "id": "an uuid",
+    "title": "Surveys's title",
+    "description": "Survey's description",
+    "created_at": "the date at the moment that was created"
   },
 
   {
-    "id": "b23f501d-1241-432a-a2d4-48532d3d815f",
-    "title": "Pesquisa de satisfação 02",
-    "description": "de 0 a 10, quanto você avaliaria nosso serviço de delivery?",
-    "created_at": "2021-02-25T20:15:40.000Z"
+    "id": "and uuid",
+    "title": "Surveys's title",
+    "description": "Survey's description",
+    "created_at": "the date at the moment that was created"
   }
 
 ]
@@ -91,8 +91,8 @@ Method: POST
 You have to send to pass:
 
 {
-	"email": "gustavonikov@gmail.com",
-	"survey_id": "d549807e-0339-448c-a0e4-15363d3d815f"
+	"email": "example@sample.com",
+	"survey_id": "an uuid"
 }
 
 ### Get Answers -> /answers/:value
@@ -102,11 +102,11 @@ Method: Get
 will return: 
 
 {
-  id: "98a82490-7b83-4b28-8e57-dfc9393eeb8c",
-  user_id: "9679dac6-592d-4b79-9ee2-ce3ddded4102",
-  survey_id: "d549807e-0339-448c-a0e4-15363d3d815f",
-  value: 9,
-  created_at: "2021-03-01T16:25:31.000Z"
+  id: "an uuid",
+  user_id: "an uuid",
+  survey_id: "an uuid",
+  value: a number from 0 to 10,
+  created_at: "the date at the moment that was created"
 }
 
 ### Get Answers -> /nps/:survey_id
@@ -116,9 +116,9 @@ Method: Get
 will return: 
 
 {
-  "detractors": 2,
-  "promoters": 1,
-  "passive": 0,
-  "totalAnswers": 3,
-  "nps": -33.33
+  "detractors": a number, that corresponds to a grade < 6 and > 0,
+  "promoters": a number, that corresponds to a grade > 9 and < 10,
+  "passive": a number, that corresponds to a grade > 6 and < 9, wont affect the nps by any means
+  "totalAnswers": a number, that represents the total number of the feedbacks by the users,
+  "nps": a numbe that corresponds to the calculate nps
 }
