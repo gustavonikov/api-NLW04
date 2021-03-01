@@ -41,7 +41,7 @@ The base url for us in this app is http://localhost:8080, which 8080 is the PORT
 
 Method: POST
 
-You have to send to pass:
+You have to pass:
 ```bash
 {
 	"name": "Sample 01",
@@ -53,7 +53,7 @@ You have to send to pass:
 
 Method: POST
 
-You have to send to pass:
+You have to pass:
 ```bash
 {
 	"title": "Survey's title",
@@ -87,7 +87,7 @@ will return:
 
 Method: POST
 
-You have to send to pass:
+You have to pass:
 ```bash
 {
 	"email": "example@sample.com",
