@@ -31,7 +31,7 @@ yarn dev
 
 <li>Automatic Integration Tests</li>
 <li>Send email with survey feedback</li>
-<li>Calculate nps</li>
+<li>Calculates the NPS</li>
 
 ## Routes
 
