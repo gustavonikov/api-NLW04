@@ -54,54 +54,52 @@ You have to send to pass:
 Method: POST
 
 You have to send to pass:
-
+```bash
 {
 	"title": "Survey's title",
 	"description": "Survey's description"
 }
-
+```
 
 ### Get created surveys -> /surveys
 
 Method: GET
 
 will return:
-
+```bash
 [
-
   {
     "id": "an uuid",
     "title": "Surveys's title",
     "description": "Survey's description",
     "created_at": "the date at the moment that was created"
   },
-
   {
     "id": "and uuid",
     "title": "Surveys's title",
     "description": "Survey's description",
     "created_at": "the date at the moment that was created"
   }
-
 ]
+```
 
 ### Send Email -> /send-mail
 
 Method: POST
 
 You have to send to pass:
-
+```bash
 {
 	"email": "example@sample.com",
 	"survey_id": "an uuid"
 }
-
+```
 ### Get Answers -> /answers/:value
 
 Method: Get
 
 will return: 
-
+```bash
 {
   id: "an uuid",
   user_id: "an uuid",
@@ -109,13 +107,13 @@ will return:
   value: a number from 0 to 10,
   created_at: "the date at the moment that was created"
 }
-
+```
 ### Get Answers -> /nps/:survey_id
 
 Method: Get
 
 will return: 
-
+```bash
 {
   "detractors": a number, that corresponds to a grade < 6 and > 0,
   "promoters": a number, that corresponds to a grade > 9 and < 10,
@@ -123,3 +121,4 @@ will return:
   "totalAnswers": a number, that represents the total number of the feedbacks by the users,
   "nps": a numbe that corresponds to the calculate nps
 }
+```
