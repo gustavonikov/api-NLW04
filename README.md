@@ -25,6 +25,7 @@ yarn dev
 <li>Typeorm</li>
 <li>Nodemailer</li>
 <li>Sqlite3</li>
+<li>Handlebars</li>
 <li>Yup</li>
 
 ## Features
