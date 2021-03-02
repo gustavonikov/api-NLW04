@@ -123,3 +123,10 @@ will return:
   "nps": a numbe that corresponds to the calculate nps
 }
 ```
+
+### Observation file .env
+
+You should create a file named .env, and then create a variable called URL_MAIL that will
+have the value of 'http://localhost:8080/answers', you can alter the 8080 to your Port.
+The reason of this is because this route can change depending on your environment, and it is
+easier to only change in one place, that's in the .env file.
