@@ -11,7 +11,7 @@ or you can download the zip file and open it in your IDE.
 Then you run ```npm install``` if you have npm installed on your machine or ```yarn add``` if you have yarn,
 to install all the dependencies that are necessarily to run the project.
 
-After install the necessarily packages, run the development server, that by default will open on http://localhost:3000,
+After install the necessarily packages, run the development server, that by default will open on http://localhost:8080,
 ```bash
 npm run dev
 # or
