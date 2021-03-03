@@ -118,7 +118,7 @@ will return:
 {
   "detractors": a number, that corresponds to a grade < 6 and > 0,
   "promoters": a number, that corresponds to a grade > 9 and < 10,
-  "passive": a number, that corresponds to a grade > 6 and < 9, wont affect the nps by any means
+  "passive": a number, that corresponds to a grade > 6 and < 9, wont affect the nps by any means,
   "totalAnswers": a number, that represents the total number of the feedbacks by the users,
   "nps": a numbe that corresponds to the calculate nps
 }
