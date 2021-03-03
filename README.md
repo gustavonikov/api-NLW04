@@ -32,7 +32,7 @@ yarn dev
 
 <li>Automatic Integration Tests</li>
 <li>Send email with survey feedback</li>
-<li>Calculates the NPS</li>
+<li>Calculates the NPS(Net Promoter Score)</li>
 
 ## Routes
 
