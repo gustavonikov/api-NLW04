@@ -74,7 +74,7 @@ Types:
 
 Method: GET
 
-will return:
+Will return:
 ```bash
 [
   {
@@ -118,7 +118,7 @@ Types:
 
 Method: Get
 
-will return: 
+Will return: 
 ```bash
 {
   id: "an uuid",
@@ -140,7 +140,7 @@ Types:
 
 Method: Get
 
-will return: 
+Will return: 
 ```bash
 {
   "detractors": a number, that corresponds to a grade < 6 and > 0,
