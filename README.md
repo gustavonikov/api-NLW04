@@ -36,7 +36,7 @@ yarn dev
 
 ## Routes
 
-The base url for us in this app is http://localhost:8080, which 8080 is the PORT.
+The base url for us in this app is http://localhost:8080, which 8080 is the PORT (you can change if you want).
 
 ### Create User -> /users
 
