@@ -50,6 +50,10 @@ You have to pass:
 }
 ```
 
+Types:
+<li>name: string</li>
+<li>email: string</li>
+
 ### Create Feedback Survey -> /surveys
 
 Method: POST
@@ -61,6 +65,10 @@ You have to pass:
 	"description": "Survey's description"
 }
 ```
+
+Types:
+<li>title: string</li>
+<li>description: string</li>
 
 ### Get created surveys -> /surveys
 
@@ -84,6 +92,12 @@ will return:
 ]
 ```
 
+Types:
+<li>id: string</li>
+<li>title: string</li>
+<li>description: string</li>
+<li>created_at: string</li>
+
 ### Send Email -> /send-mail
 
 Method: POST
@@ -95,6 +109,11 @@ You have to pass:
 	"survey_id": "an uuid"
 }
 ```
+
+Types:
+<li>email: string</li>
+<li>survey_id: string</li>
+
 ### Get Answers -> /answers/:value
 
 Method: Get
@@ -109,6 +128,14 @@ will return:
   created_at: "the date at the moment that was created"
 }
 ```
+
+Types:
+<li>id: string</li>
+<li>user_id: string</li>
+<li>survey_id: string</li>
+<li>value: number</li>
+<li>created_at: string</li>
+
 ### Get NPS -> /nps/:survey_id
 
 Method: Get
@@ -120,9 +147,16 @@ will return:
   "promoters": a number, that corresponds to a grade > 9 and < 10,
   "passive": a number, that corresponds to a grade > 6 and < 9, wont affect the nps by any means,
   "totalAnswers": a number, that represents the total number of the feedbacks by the users,
-  "nps": a numbe that corresponds to the calculate nps
+  "nps": a number that corresponds to the calculate nps
 }
 ```
+
+Types:
+<li>detractors: number</li>
+<li>promoters: number</li>
+<li>passive: number</li>
+<li>totalAnswers: number</li>
+<li>nps: number</li>
 
 ### Observation file .env
 
