@@ -158,7 +158,7 @@ Types:
 <li>totalAnswers: number</li>
 <li>nps: number</li>
 
-### Observation file .env
+### Observation "file .env"
 
 You should create a file named ".env", and then create a variable called "URL_MAIL" that will
 have the value of "http://localhost:8080/answers", reminding that you can alter the 8080 to your port.
