@@ -161,6 +161,6 @@ Types:
 ### Observation file .env
 
 You should create a file named .env, and then create a variable called "URL_MAIL" that will
-have the value of 'http://localhost:8080/answers', you can alter the 8080 to your port.
-The reason of this is because this route can change depending on your environment, and it is
+have the value of "http://localhost:8080/answers", reminding that you can alter the 8080 to your port.
+The reason is because this route can change depending on your environment, and it is
 easier to only change in one place, that's in the .env file.
