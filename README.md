@@ -54,7 +54,7 @@ Types:
 <li>name: string</li>
 <li>email: string</li>
 
-### Create Feedback Survey -> /surveys
+### Create feedback survey -> /surveys
 
 Method: POST
 
@@ -98,7 +98,7 @@ Types:
 <li>description: string</li>
 <li>created_at: string</li>
 
-### Send Email -> /send-mail
+### Send email -> /send-mail
 
 Method: POST
 
@@ -114,7 +114,7 @@ Types:
 <li>email: string</li>
 <li>survey_id: string</li>
 
-### Get Answers -> /answers/:value
+### Get answers -> /answers/:value
 
 Method: Get
 
@@ -136,7 +136,7 @@ Types:
 <li>value: number</li>
 <li>created_at: string</li>
 
-### Get NPS -> /nps/:survey_id
+### Get NPS result -> /nps/:survey_id
 
 Method: Get
 
