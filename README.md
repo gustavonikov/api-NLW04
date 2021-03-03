@@ -109,7 +109,7 @@ will return:
   created_at: "the date at the moment that was created"
 }
 ```
-### Get Answers -> /nps/:survey_id
+### Get NPS -> /nps/:survey_id
 
 Method: Get
 
